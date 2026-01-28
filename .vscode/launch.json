@@ -1,0 +1,160 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch App in Teams (Edge)",
+            "type": "msedge",
+            "request": "launch",
+            "url": "https://www.office.com/chat?auth=2",
+            "cascadeTerminateToConfigurations": [
+                "Attach to Backend"
+            ],
+            "presentation": {
+                "group": "all",
+                "hidden": true
+            },
+            "internalConsoleOptions": "neverOpen",
+            "perScriptSourcemaps": "yes"
+        },
+        {
+            "name": "Launch App in Teams (Chrome)",
+            "type": "chrome",
+            "request": "launch",
+            "url": "https://www.office.com/chat?auth=2",
+            "cascadeTerminateToConfigurations": [
+                "Attach to Backend"
+            ],
+            "presentation": {
+                "group": "all",
+                "hidden": true
+            },
+            "internalConsoleOptions": "neverOpen",
+            "perScriptSourcemaps": "yes"
+        },
+        {
+            "name": "Preview in Copilot (Edge)",
+            "type": "msedge",
+            "request": "launch",
+            "url": "https://www.office.com/chat?auth=2",
+            "presentation": {
+                "group": "remote",
+                "order": 1
+            },
+            "internalConsoleOptions": "neverOpen"
+        },
+        {
+            "name": "Preview in Copilot (Chrome)",
+            "type": "chrome",
+            "request": "launch",
+            "url": "https://www.office.com/chat?auth=2",
+            "presentation": {
+                "group": "remote",
+                "order": 2
+            },
+            "internalConsoleOptions": "neverOpen"
+        },
+        {
+            "name": "Attach to Backend",
+            "type": "node",
+            "request": "attach",
+            "port": 9229,
+            "restart": true,
+            "presentation": {
+                "group": "all",
+                "hidden": true
+            },
+            "internalConsoleOptions": "neverOpen"
+        }
+
+
+
+
+
+
+
+
+      ,  
+{
+  "type": "node",
+  "request": "launch",
+  "name": "xxJoe22___Node v22 not v24 — Run current file",
+  "program": "${file}",
+  "runtimeExecutable": "C:\\Dev3\\My Agent____node-v22.22.0-win-x64\\node-v22.22.0-win-x64\\node.exe",
+  "console": "integratedTerminal"
+}
+
+
+
+        
+
+,
+{
+      "type": "node",
+      "request": "launch",
+      "name": "Joe2__Launch Azure Functions (Portable)",
+      "runtimeExecutable": "${workspaceFolder}/Tools_Joe_3/func_Joe_AzureFunctions_NoWorkersPlaceholder/func.exe",
+      "runtimeArgs": [
+        "start",
+        "--script-root",
+        "${workspaceFolder}"
+      ],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+
+
+,
+  "env": {    
+    "PATH": "C:/Dev3/My Agent__________node-v18.20.8-win-x64/node-v18.20.8-win-x64;${env:PATH}"
+  }
+
+      
+
+
+
+    },
+    {
+      "type": "node",
+      "request": "attach",
+      "name": "Joe3__Attach to Azure Functions",
+      "port": 9229,
+      "restart": true
+    }
+
+
+
+
+    
+
+
+
+
+    ],
+    "compounds": [
+        {
+            "name": "Debug in Copilot (Edge)",
+            "configurations": [
+                "Launch App in Teams (Edge)",
+                "Attach to Backend"
+            ],
+            "preLaunchTask": "Start Teams App Locally",
+            "presentation": {
+                "group": "all",
+                "order": 1
+            },
+            "stopAll": true
+        },
+        {
+            "name": "Debug in Copilot (Chrome)",
+            "configurations": [
+                "Launch App in Teams (Chrome)",
+                "Attach to Backend"
+            ],
+            "preLaunchTask": "Start Teams App Locally",
+            "presentation": {
+                "group": "all",
+                "order": 2
+            },
+            "stopAll": true
+        }
+    ]
+}
