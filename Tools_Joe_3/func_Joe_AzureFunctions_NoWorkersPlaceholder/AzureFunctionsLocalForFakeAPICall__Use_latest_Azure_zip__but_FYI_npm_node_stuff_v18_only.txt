@@ -1,0 +1,9 @@
+https://github.com/Azure/azure-functions-core-tools/releases
+
+
+the last one I unzipped only had this in the old Tools one I made:
+
+placeholder.txt
+
+P:\da-ristorante-api___REPULL_FOR_ORIG_PRE_PLAY\Tools_Joe_NoAdminRights_NoAzure__FakeAPIviaAzureFunctions\func_Joe_AzureFunctions\workers\
+
