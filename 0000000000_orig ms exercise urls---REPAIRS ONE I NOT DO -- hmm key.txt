@@ -1,0 +1,14 @@
+1
+https://learn.microsoft.com/en-us/training/modules/copilot-declarative-agent-action-api-plugin-vsc/1-introduction
+
+2
+https://learn.microsoft.com/en-us/training/modules/copilot-declarative-agent-action-api-plugin-vsc/2-create-declarative-agent-api-plugin
+
+3
+https://learn.microsoft.com/en-us/training/modules/copilot-declarative-agent-action-api-plugin-vsc/3-exercise-create-declarative-agent-api-plugin
+
+===========
+0 or 4 hmm .. auth   KEY .. vrs Identity
+is the KEY one I not do 
+da-repairs-key
+https://learn.microsoft.com/en-us/training/modules/copilot-declarative-agent-api-plugin-auth/3-exercise-integrate-api-plugin-key

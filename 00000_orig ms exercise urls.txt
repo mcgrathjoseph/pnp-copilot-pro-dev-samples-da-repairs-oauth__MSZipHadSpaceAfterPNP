@@ -1,0 +1,8 @@
+1
+https://learn.microsoft.com/en-us/training/modules/copilot-declarative-agent-action-api-plugin-vsc/1-introduction
+
+2
+https://learn.microsoft.com/en-us/training/modules/copilot-declarative-agent-action-api-plugin-vsc/2-create-declarative-agent-api-plugin
+
+3
+https://learn.microsoft.com/en-us/training/modules/copilot-declarative-agent-action-api-plugin-vsc/3-exercise-create-declarative-agent-api-plugin

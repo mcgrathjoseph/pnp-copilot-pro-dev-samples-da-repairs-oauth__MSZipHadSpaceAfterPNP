@@ -1,0 +1,2 @@
+https://learn.microsoft.com/en-us/training/modules/copilot-declarative-agent-api-plugin-auth/3-exercise-integrate-api-plugin-key
+https://learn.microsoft.com/en-us/training/modules/copilot-declarative-agent-api-plugin-auth/4-integrate-api-plugin-oauth
